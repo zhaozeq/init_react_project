@@ -3,7 +3,7 @@
   "name": "antd-admin",
   "version": "4.3.6",
   "dependencies": {
-    "react": "^15.6.1",
+    "react": "^15.6.1"
   },
   "devDependencies": {
   },
