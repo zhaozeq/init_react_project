@@ -5,6 +5,7 @@
   "author": "zhaozeqing",
   "license": "ISC",
   "scripts": {
+    "dll": "webpack --config ./webpack.dll.config.js --progress",
     "start": "webpack-dev-server --open --config webpack.dev.config.js",
     "build": "webpack --mode production --config webpack.prod.config.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +13,7 @@
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
