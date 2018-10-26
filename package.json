@@ -1,8 +1,8 @@
 {
-  "name": "react-demo",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "",
-  "author": "z_sun",
+  "description": "{{description}}",
+  "author": "{{author}}",
   "license": "ISC",
   "scripts": {
     "dll": "webpack --config webpack.dll.config.js --progress",
