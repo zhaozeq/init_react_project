@@ -1,5 +1,5 @@
 {
-  "name": "{{name}}",
+  "name": "name",
   "version": "1.0.0",
   "description": "{{description}}",
   "author": "{{author}}",
@@ -39,7 +39,7 @@
     "uglifyjs-webpack-plugin": "^1.2.5",
     "url-loader": "^1.0.1",
     "webpack": "^4.10.2",
-    "webpack-cli": "^2.1.4",
+    "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
